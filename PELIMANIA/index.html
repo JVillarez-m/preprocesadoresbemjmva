@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PeliManía - Revive la mágia del cine en casa</title>
+  <link rel="stylesheet" href="./styles/style.css">
+</head>
+<body>
+    
+    <!-- Logo y slogan -->
+    <header class="header">
+        <div class="header__logo-slogan">
+            <img src="./img/logo.png" alt="Logo de PeliManía" class="header__logo">
+        </div>
+        <div class="header__hero">
+            <h1 class="header__title">PeliManía</h1>
+            <p class="header__slogan">Revive la mágia del cine en casa</p>
+        </div>
+    </header>
+
+    <!-- Barra de navegación -->
+    <nav class="nav">
+        <a href="#inicio" class="nav__link">Inicio</a> 
+        <a href="#peliculas" class="nav__link">Películas</a> 
+        <a href="#contacto" class="nav__link">Contacto</a>
+    </nav>
+
+    <!-- Mensaje de bienvenida -->
+    <section class="message">
+        <marquee behavior="alternate" scrollamount="10">
+            <div class="message__text">¡Bienvenido a PeliManía! Grandes ofertas disponibles.</div>
+        </marquee>
+    </section>
+    
+    <h2 class="movies__header">¡Encuentra tu película!</h2>
+    
+    <!-- Sección de películas -->
+    <section class="movies">
+        <article class="movies__item">
+            <img src="./img/joker.png" alt="El joker" class="movies__image">
+            <h3 class="movies__title">El joker</h3>
+            <p class="movies__description">El Joker (2019) narra el descenso de Arthur Fleck, un hombre marginado, hacia la locura, convirtiéndose en el villano Joker en una sociedad que lo ignora y oprime.</p>
+        </article>
+        <article class="movies__item">
+            <img src="./img/linterna-verde.jpg" alt="Linterna verde" class="movies__image">
+            <h3 class="movies__title movie--important">Linterna Verde</h3>
+            <p class="movies__description">Linterna Verde (2011) sigue a Hal Jordan, un piloto que recibe un anillo de poder que lo convierte en parte de una fuerza intergaláctica encargada de proteger el universo, enfrentando a un temible villano llamado Parallax.</p>
+        </article>
+        <article class="movies__item">
+            <img src="./img/Dragonball.jpg" alt="Dragon Ball Evolution" class="movies__image">
+            <h3 class="movies__title">Dragon Ball Evolution</h3>
+            <p class="movies__description">Dragonball Evolution (2009) sigue a Goku, un joven que debe reunir las Esferas del Dragón para detener al malvado Piccolo y salvar al mundo.</p>
+        </article>
+    </section>
+
+    <!-- Sección de pedidos -->
+    <section class="order">
+        <h2 class="order__header">Hacer un Pedido</h2>
+        <form class="order__form">
+            <label for="nombre" class="order__label">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" class="order__input"><br>
+            
+            <label for="email" class="order__label">Email:</label>
+            <input type="email" id="email" name="email" class="order__input"><br>
+            
+            <label for="pelicula" class="order__label">Película:</label>
+            <select id="pelicula" name="pelicula" class="order__select">
+                <option value="pelicula1">Película 1</option>
+                <option value="pelicula2">Película 2</option>
+                <option value="pelicula3">Película 3</option>
+            </select><br>
+            
+            <label for="cantidad" class="order__label">Cantidad:</label>
+            <input type="number" id="cantidad" name="cantidad" min="1" value="1" class="order__input"><br>
+            
+            <input type="submit" value="Hacer Pedido" class="order__submit">
+        </form>
+    </section>
+
+    <!-- Pié de página -->
+    <footer class="footer">
+        <div class="footer__content">
+            <p class="footer__text">© 2024 PeliManía. Todos los derechos reservados.</p>
+            <nav class="footer__nav">
+                <a href="#terminos" class="footer__link">Términos y condiciones</a>
+                <a href="#privacidad" class="footer__link">Política de privacidad</a>
+                <a href="#contacto" class="footer__link">Contacto</a>
+            </nav>
+        </div>
+    </footer>
+
+</body>
+</html>
