@@ -1,0 +1,176 @@
+/* Estilos generales del body */
+body {
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Estilos del header */
+.header {
+    width: 100%;
+    background-color: #000000;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.header__logo {
+    width: 100px;
+    height: 100px;
+}
+
+.header__title {
+    font-size: 2.5em;
+    font-weight: bold;
+    margin: 0;
+}
+
+.header__slogan {
+    font-size: 1.5em;
+    color: yellow;
+    margin: 0;
+}
+
+
+/* Estilos de la barra de navegación */
+.nav {
+    width: 100%;
+    background-color: #333333;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.nav__link {
+    color: white;
+    font-size: 1.5em;
+    text-decoration: none;
+    margin: 0 15px;
+}
+
+/* Estilos del mensaje de bienvenida */
+.message {
+    width: 100%;
+    background-color: #dddddd;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.message__text {
+    color: red;
+    font-size: 1.5em;
+}
+
+/* Estilos de la sección de películas */
+.movies__header {
+    text-align: center;
+    color: #0000FF;
+    font-size: 1.5em;
+    margin-top: 20px;
+}
+
+.movies {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    text-align: center;
+}
+
+.movies__item {
+    width: 30%;
+}
+
+.movies__image {
+    width: 150px;
+    height: 200px;
+}
+
+.movies__title {
+    color: #006600;
+    font-weight: bold;
+}
+
+.movie--important{
+    color: red;
+}
+
+.movies__description {
+    font-size: 1em;
+}
+
+/* Estilos de la sección de pedidos */
+.order {
+    text-align: center;
+    margin: 20px auto;
+}
+
+.order__header {
+    font-size: 1.5em;
+}
+
+.order__form {
+    display: inline-block;
+    text-align: left;
+    margin-top: 20px;
+}
+
+.order__label {
+    display: block;
+    margin: 10px 0 5px;
+}
+
+.order__input, .order__select {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+}
+
+.order__submit {
+    padding: 10px 15px;
+    background-color: green;
+    border: none;
+    color: white;
+    border-radius: 15px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+
+/* Pie de página */
+.footer {
+    background-color: #000000;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer__content {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.footer__text {
+    margin: 0;
+    font-size: 1em;
+}
+
+.footer__nav {
+    margin-top: 10px;
+}
+
+.footer__link {
+    color: yellow;
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 1em;
+}
+
+.footer__link:hover {
+    text-decoration: underline;
+}
